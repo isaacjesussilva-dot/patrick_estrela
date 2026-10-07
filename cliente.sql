@@ -18,19 +18,19 @@ INSERT INTO cliente (
     "EAUHEAUISHEUIEAIS"
 );
 
-# Depois, pedir para a IA criar 10 clientes
-# fictícios
+#clientes
 INSERT INTO cliente (nome, cpf, celular, email, senha) VALUES 
-('Lucas Silva', '222.333.444-55', '(42)99888-1111', 'lucas.silva@gmail.com', 'JSUAHSIDHAISUHD'),
-('Mariana Costa', '333.444.555-66', '(41)99777-2222', 'mari.costa@hotmail.com', 'KASJDKAJSHDKAJS'),
-('Carlos Eduardo', '444.555.666-77', '(11)99666-3333', 'carlos.edu@outlook.com', 'QWEOIUQWOIEUQWO'),
-('Ana Beatriz', '555.666.777-88', '(21)99555-4444', 'ana.bia@gmail.com', 'ZMXNCBVMZNCBVZ'),
-('Rodrigo Souza', '666.777.888-99', '(31)99444-5555', 'rodrigo.souza@yahoo.com', 'PLMOKNJBHIUYT'),
-('Juliana Mendes', '777.888.999-00', '(42)99333-6666', 'ju.mendes@gmail.com', 'OEIUROYTIREUYT'),
-('Fernando Dias', '888.999.000-11', '(43)99222-7777', 'fernando.dias@outlook.com', 'ASDFGHJKLPOIUY'),
-('Beatriz Rocha', '999.000.111-22', '(41)99111-8888', 'bia.rocha@hotmail.com', 'MNBVCXZLKJHGFD'),
-('Ricardo Alves', '000.111.222-33', '(11)99000-9999', 'ricardo.alves@gmail.com', 'POIUYTREWQASDF'),
-('Patrício Antunes', '123.456.789-10', '(21)98999-0000', 'paty.antunes@gmail.com', 'ZXCVBNMASDFGHJ');
+('Gabriel Santana', '111.222.333-44', '(41)99888-2233', 'gabriel.santana@gmail.com', 'ALSKDJFHGZMXNCB'),
+('Amanda Oliveira', '222.555.888-11', '(42)99777-4455', 'amanda.oli@hotmail.com', 'QPWOEIRUTYALSKD'),
+('Bruno Henrique', '333.666.999-22', '(11)99666-5566', 'bruno.henrique@outlook.com', 'ZMXNCBVALSKDJFH'),
+('Camila Rodrigues', '444.777.000-33', '(21)99555-6677', 'camila.rod@gmail.com', 'POIUYTREWQLKJH'),
+('Diego Martins', '555.888.111-44', '(31)99444-7788', 'diego.martins@yahoo.com', 'MNBVCXZALSKDJF'),
+('Larissa Ferreira', '666.999.222-55', '(43)99333-8899', 'larissa.f@gmail.com', 'QWERTYUIOPASDFG'),
+('Thiago Barbosa', '777.000.333-66', '(41)99222-9900', 'thiago.barbosa@outlook.com', 'HGFDSAZXCVBNMKL'),
+('Letícia Gomes', '888.111.444-77', '(11)99111-0011', 'leticia.gomes@hotmail.com', 'TYUIOPLKJHGFDSA'),
+('Marcelo Vieira', '999.222.555-88', '(21)99000-1122', 'marcelo.vieira@gmail.com', 'ZXCVBNMPOIUYTRE'),
+('Vanessa Lima', '000.333.666-99', '(42)98999-2233', 'vanessa.lima@gmail.com', 'LKJHGFDSAQWERTY');
+
 
 
 SELECT email, senha FROM cliente;
